@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mihailerosenko/z1qnezt/workspace/RK2
+# Install script for directory: /Users/mihailerosenko/Desktop/RK2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mihailerosenko/z1qnezt/workspace/RK2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mihailerosenko/Desktop/RK2/_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

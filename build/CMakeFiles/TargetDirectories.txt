@@ -1,3 +1,0 @@
-/Users/mihailerosenko/z1qnezt/workspace/RK2/build/CMakeFiles/Design.dir
-/Users/mihailerosenko/z1qnezt/workspace/RK2/build/CMakeFiles/edit_cache.dir
-/Users/mihailerosenko/z1qnezt/workspace/RK2/build/CMakeFiles/rebuild_cache.dir

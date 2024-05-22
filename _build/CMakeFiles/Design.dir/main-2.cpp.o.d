@@ -1,7 +1,7 @@
 CMakeFiles/Design.dir/main-2.cpp.o: \
-  /Users/mihailerosenko/z1qnezt/workspace/RK2/main-2.cpp \
-  /Users/mihailerosenko/z1qnezt/workspace/RK2/concrete_handler.h \
-  /Users/mihailerosenko/z1qnezt/workspace/RK2/handler.h \
+  /Users/mihailerosenko/Desktop/RK2/main-2.cpp \
+  /Users/mihailerosenko/Desktop/RK2/concrete_handler.h \
+  /Users/mihailerosenko/Desktop/RK2/handler.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \

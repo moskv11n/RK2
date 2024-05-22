@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mihailerosenko/z1qnezt/workspace/RK2/main-2.cpp" "CMakeFiles/Design.dir/main-2.cpp.o" "gcc" "CMakeFiles/Design.dir/main-2.cpp.o.d"
+  "/Users/mihailerosenko/Desktop/RK2/main-2.cpp" "CMakeFiles/Design.dir/main-2.cpp.o" "gcc" "CMakeFiles/Design.dir/main-2.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
