@@ -6,7 +6,7 @@ TEST(ChainOfResponsibilityTest, ManagerApproval) {
     testing::internal::CaptureStdout();
     manager->HandleRequest(1);
     std::string output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ(output, "Manager 批准了 1 天假\n");
+    EXPECT_EQ(output, "Manager: 1\n");
     delete manager;
 }
 
@@ -18,7 +18,7 @@ TEST(ChainOfResponsibilityTest, DirectorApproval) {
     testing::internal::CaptureStdout();
     manager->HandleRequest(3);
     std::string output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ(output, "Director 批准了 3 天假\n");
+    EXPECT_EQ(output, "Director: 3\n");
     
     delete manager;
     delete director;
@@ -36,13 +36,13 @@ TEST(ChainOfResponsibilityTest, CEOApproval) {
     testing::internal::CaptureStdout();
     manager->HandleRequest(5);
     std::string output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ(output, "CEO 批准了 5 天假\n");
+    EXPECT_EQ(output, "CEO: 5\n");
     
     // Test CEO denying more than 7 days of leave
     testing::internal::CaptureStdout();
     manager->HandleRequest(10);
     output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ(output, "给你放长假，以后不用来上班啦！\n");
+    EXPECT_EQ(output, "bye\n");
 
     delete manager;
     delete director;

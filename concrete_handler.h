@@ -17,7 +17,7 @@ class Manager : public IHandler
 public:
 	void HandleRequest(int days) override {
 		if (days <= 1) {
-			std::cout << "Manager 批准了 " << days << " 天假" << std::endl;
+			std::cout << "Manager: " << days << std::endl;
 		} else {
 			if (nullptr != m_pSuccessor)
 				m_pSuccessor->HandleRequest(days);
@@ -31,7 +31,7 @@ class Director : public IHandler
 public:
 	void HandleRequest(int days) override {
 		if (days <= 3) {
-			std::cout << "Director 批准了 " << days << " 天假" << std::endl;
+			std::cout << "Director: " << days << std::endl;
 		} else {
 			if (nullptr != m_pSuccessor)
 				m_pSuccessor->HandleRequest(days);
@@ -45,9 +45,9 @@ class CEO : public IHandler
 public:
 	void HandleRequest(int days) override {
 		if (days <= 7) {
-			std::cout << "CEO 批准了 " << days << " 天假" << std::endl;
+			std::cout << "CEO: " << days << std::endl;
 		} else {
-			std::cout << "给你放长假，以后不用来上班啦！" << std::endl;
+			std::cout << "bye" << std::endl;
 		}
 	}
 };
