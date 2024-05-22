@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+option(BUILD_TESTS "Build tests" OFF)
+option(PACK "pack" OFF)
 
 project(Design)
 file(GLOB SOURCES "main-2.cpp" , "concrete_handler.h" , "handler.h")
@@ -16,3 +18,5 @@ if(BUILD_TESTS)
   target_link_libraries(check gtest_main)
   add_test(NAME check COMMAND check)
 endif()
+
+include(CPack.cmake)
